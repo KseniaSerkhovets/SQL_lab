@@ -1,0 +1,31 @@
+	projects
+id		:95
+name		:translator
+links		:https://translate.google.com/?hl=ru&sl=uk&tl=en&op=translate
+		:https://translate.google.com/?hl=ru&sl=en&tl=uk&op=translate
+
+	tasks
+id		:126
+name		:backend
+project_id	:95
+author_id	:44
+links		:NULL
+
+	users
+id		:44
+ip		:111.111.111.111
+username	:ksenia
+
+id		:38
+ip		:77
+username	:ksenia_2
+
+	task_participants
+id		:364
+task_id		:126
+user_id		:38
+
+	project_participants
+id		:342
+project_id	:95
+user_id		:44
