@@ -1,15 +1,12 @@
 	projects
 id		:95
 name		:translator
-links		:https://translate.google.com/?hl=ru&sl=uk&tl=en&op=translate
-		:https://translate.google.com/?hl=ru&sl=en&tl=uk&op=translate
 
 	tasks
 id		:126
 name		:backend
 project_id	:95
 author_id	:44
-links		:NULL
 
 	users
 id		:44
@@ -29,3 +26,9 @@ user_id		:38
 id		:342
 project_id	:95
 user_id		:44
+
+	files
+id		:361
+entity		:task
+entity_id	:126
+link		:https://translate.google.com/?hl=ru&sl=en&tl=uk&op=translate
